@@ -63,13 +63,13 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex gap-6 items-center">
-          <Link to="/lowongan" className="hover:text-[#55BACC]">
+          <Link to="/cari-lowongan" className="hover:text-[#55BACC]">
             Cari Lowongan Kerja
           </Link>
-          <Link to="/freelancer" className="hover:text-[#55BACC]">
+          <Link to="/cari-freelancer" className="hover:text-[#55BACC]">
             Cari Freelancer
           </Link>
-          <Link to="/perusahaan" className="hover:text-[#55BACC]">
+          <Link to="/cari-perusahaan" className="hover:text-[#55BACC]">
             Cari Perusahaan
           </Link>
           <a
@@ -112,19 +112,19 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden px-4 pt-2 pb-4 space-y-2">
           <Link
-            to="/lowongan"
+            to="/cari-lowongan"
             className="block text-gray-700 hover:text-[#55BACC]"
           >
             Cari Lowongan Kerja
           </Link>
           <Link
-            to="/freelancer"
+            to="/cari-freelancer"
             className="block text-gray-700 hover:text-[#55BACC]"
           >
             Cari Freelancer
           </Link>
           <Link
-            to="/perusahaan"
+            to="/cari-perusahaan"
             className="block text-gray-700 hover:text-[#55BACC]"
           >
             Cari Perusahaan

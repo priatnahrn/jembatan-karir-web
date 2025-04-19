@@ -9,6 +9,9 @@ import RegisterPerusahaan from "./pages/perusahaan/Register";
 import Login from "./pages/Login";
 import ProfilDisabilitas from "./pages/disabilitas/ProfilDisabilitas";
 import DashboardFreelancer from "./pages/freealancer/DashboardFreelancer";
+import CariFreelancer from "./pages/CariFreelancer";
+import CariLowonganKerja from "./pages/CariLowonganKerja";
+import CariPerusahaan from "./pages/CariPerusahaan";
 
 import React from "react";
 
@@ -28,7 +31,11 @@ const App = () => {
 
         <Route path="/dashboard-freelancer" element={<DashboardFreelancer />} />
 
+        <Route path="/cari-freelancer" element={<CariFreelancer />} />
 
+        <Route path="/cari-lowongan" element={<CariLowonganKerja />} />
+
+        <Route path="/cari-perusahaan" element={<CariPerusahaan />} />
         <Route path="/about" element={<About />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
