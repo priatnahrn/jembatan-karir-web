@@ -382,7 +382,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <Footer  />
+      <Footer />
+      <script src="https://dash.accessiblyapp.com/widget/0197ab33-5e9a-723d-9326-216aeee9cbc9/autoload.js"></script>
     </main>
   );
 };
